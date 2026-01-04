@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Loan Monthly Payment"
+        android:textSize="20sp"
+        android:paddingBottom="15dp"/>
+
+    <EditText
+        android:id="@+id/etPrincipal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Principal (P)"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/etInterest"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Annual Interest Rate (I %)"
+        android:inputType="numberDecimal"
+        android:paddingTop="10dp"/>
+
+    <EditText
+        android:id="@+id/etYears"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Loan Length (L years)"
+        android:inputType="number"
+        android:paddingTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate Payment"
+        android:paddingTop="15dp"/>
+
+    <TextView
+        android:id="@+id/tvMonthly"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Monthly Payment (M) = "
+        android:textSize="16sp"
+        android:paddingTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tvTotalPay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Payment = "
+        android:textSize="16sp"
+        android:paddingTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tvTotalInterest"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Interest Paid = "
+        android:textSize="16sp"
+        android:paddingTop="10dp"/>
+</LinearLayout>
