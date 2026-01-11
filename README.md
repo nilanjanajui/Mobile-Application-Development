@@ -95,7 +95,7 @@ An Android application concept focused on identifying safer travel routes.
 1. Clone the repository:
 
    ```bash
-   git clone (https://github.com/nilanjanajui/Mobile-Application-Development.git)
+   git clone https://github.com/nilanjanajui/Mobile-Application-Development.git
    ```
 2. Open **Android Studio**.
 3. Select **Open an Existing Project**.
